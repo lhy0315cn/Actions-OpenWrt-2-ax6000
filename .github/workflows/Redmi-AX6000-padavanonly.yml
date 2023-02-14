@@ -22,7 +22,7 @@ on:
 #    - cron: 0 16 * * *
 
 env:
-  REPO_URL: https://github.com/lgs2007m/immortalwrtARM
+  REPO_URL: https://github.com/lhy0315cn/immortalwrtARM
   REPO_BRANCH: mt7986
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: padavanonly/Redmi-AX6000/.config
@@ -141,7 +141,8 @@ jobs:
       run: |
         echo "release_tag=${{ env.FILE_DATE }}-${{ env.OPENWRT_NAME }}-${{ env.DEVICE_NAME }}" >> $GITHUB_OUTPUT
         touch release.txt
-        echo "192.168.6.1" >> release.txt
+        echo "感谢大佬" >> release.txt
+        echo "192.168.2.1" >> release.txt
         echo "📥 固件下载" >> release.txt
         echo "status=success" >> $GITHUB_OUTPUT
         
