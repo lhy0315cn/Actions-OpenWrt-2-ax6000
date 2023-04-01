@@ -17,6 +17,6 @@
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 #echo 'src-git messense https://github.com/messense/aliyundrive-webdav' >>feeds.conf.default
-echo 'src-git kenzok https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
+#echo 'src-git kenzok https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
 #echo 'src-git destan19 https://github.com/destan19/OpenAppFilter' >>feeds.conf.default
 #echo 'src-git sansun888 https://github.com/sansun888/OpenAppFilter' >>feeds.conf.default
